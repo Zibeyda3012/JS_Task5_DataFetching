@@ -1,0 +1,27 @@
+
+.div1Style{
+    display: flex;
+    gap: 5px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.mainDivStyle{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.childDiv2Style{
+    display: none;
+}
+.childDiv1Style{
+    cursor: pointer;
+    color: darkblue;
+}
